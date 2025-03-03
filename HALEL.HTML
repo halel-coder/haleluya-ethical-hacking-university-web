@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HALELUYA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .about, .services, .contact {
+            background-color: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            padding: 20px;
+        }
+        .about h2, .services h2, .contact h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to HALELUYA</h1>
+        <p>Celebrating life, faith, and community</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div>
+            <h1>Welcome to HALELUYA</h1>
+            <p>Your journey to peace and positivity starts here.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container about">
+        <h2>About Us</h2>
+        <p>HALELUYA is a community-driven platform designed to uplift and inspire individuals. Whether you're seeking spiritual growth, wellness tips, or a place to connect, HALELUYA is here to serve you with love and dedication.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Spiritual Guidance and Counseling</li>
+            <li>Community Events and Workshops</li>
+            <li>Online Resources for Personal Growth</li>
+            <li>Wellness Programs</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to get in touch? Feel free to reach out!</p>
+        <form action="#" method="post">
+            <label for="HALEL">HALEL:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 HALELUYA. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
